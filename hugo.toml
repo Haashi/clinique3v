@@ -1,0 +1,290 @@
+baseURL = 'https://clinique3v.fr/'
+languageCode = 'FR-fr'
+title = "Clinique vétérinaire 3V"
+theme = 'universal'
+
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "fr"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+# number of words of summarized post content (default 70)
+summaryLength = 70
+# Define the number of posts per page
+paginate = 10
+# not pluralize title pages by default
+pluralizelisttitles = false
+
+[menu]
+
+# Main menu
+[[menu.main]]
+    name       = "Accueil"
+    identifier = "menu.accueil"
+    url        = "/"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Structure"
+    identifier = "menu.structure"
+    url        = "/structure/"
+    weight     = 2
+
+[[menu.main]]
+    name       = "Services"
+    identifier = "menu.services"
+    weight     = 3
+
+[[menu.main]]
+    name       = "Animaux de compagnie"
+    identifier = "section.animauxcompagnie"
+    url        = ""
+    weight     = 1
+    parent     = "menu.services"
+    post       = 1
+
+[[menu.main]]
+    name       = "Reiki Animalier"
+    identifier = "section.reikianimalier"
+    url        = "/reiki/"
+    weight     = 2
+    parent     = "menu.services"
+    post       = 2
+
+[[menu.main]]
+    name       = "Grands Animaux"
+    identifier = "section.grandsanimaux"
+    url        = ""
+    weight     = 3
+    parent     = "menu.services"
+    post       = 3
+
+[[menu.main]]
+    name       = "Consultations"
+    identifier = "ac-consultations"
+    url        = "/ac-consultations/"
+    weight     = 1
+    parent     = "section.animauxcompagnie"
+
+[[menu.main]]
+    name       = "Chirugie"
+    identifier = "ac-chirurgie"
+    url        = "/ac-chirurgie/"
+    weight     = 2
+    parent     = "section.animauxcompagnie"
+
+[[menu.main]]
+    name       = "Imagerie"
+    identifier = "ac-imagerie"
+    url        = "/ac-imagerie/"
+    weight     = 3
+    parent     = "section.animauxcompagnie"
+
+[[menu.main]]
+    name       = "Analyses"
+    identifier = "ac-analyses"
+    url        = "/ac-analyses/"
+    weight     = 4
+    parent     = "section.animauxcompagnie"
+
+[[menu.main]]
+    name       = "Hospitalisation"
+    identifier = "ac-hospitalisation"
+    url        = "/ac-hospitalisation/"
+    weight     = 5
+    parent     = "section.animauxcompagnie"
+
+[[menu.main]]
+    name       = "Alimentation & Accessoires"
+    identifier = "ac-alimationetaccessoires"
+    url        = "/ac-alimentationetaccessoires/"
+    weight     = 6
+    parent     = "section.animauxcompagnie"
+
+[[menu.main]]
+    name       = "Conseils en élevage"
+    identifier = "ga-conseilelevage"
+    url        = "/ga-conseilelevage/"
+    weight     = 1
+    parent     = "section.grandsanimaux"
+
+[[menu.main]]
+    name       = "Tests rapides"
+    identifier = "ga-testsrapides"
+    url        = "/ga-testsrapides/"
+    weight     = 2
+    parent     = "section.grandsanimaux"
+
+[[menu.main]]
+    name       = "Vaccination chevaux"
+    identifier = "ga-vaccinationchevaux"
+    url        = "/ga-vaccinationchevaux/"
+    weight     = 3
+    parent     = "section.grandsanimaux"
+
+
+[[menu.main]]
+    name       = "Notre équipe"
+    identifier = "menu.equipe"
+    url = "/equipe/"
+    weight     = 4
+
+[[menu.main]]
+    name       = "FAQ"
+    identifier = "menu.faq"
+    url        = "/faq/"
+    weight     = 6
+
+[[menu.main]]
+    identifier = "contact"
+    name       = "Accès et Contact"
+    url        = "/contact/"
+    weight     = 7
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = true
+    text = """<p class="hidden-sm hidden-xs">Appelez nous au 03 39 32 50 00 ou par e-mail cliniqueveterinaire3V@gmail.com</p>
+      <p class="hidden-md hidden-lg"><a href="tel:+33339325000" data-animate-hover="pulse">+33339325000<i class="fas fa-phone"></i></a>
+      <a href="mailto:cliniqueveterinaire3V@gmail.com" data-animate-hover="pulse">cliniqueveterinaire3V@gmail.com<i class="fas fa-envelope"></i></a>
+      </p>
+      """
+
+# Top bar social links menu
+
+[[menu.topbar]]
+    weight = 1
+    name = "Phone"
+    url = "tel:+33339325000"
+    pre = "<i class='fas fa-2x fa-phone'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "Facebook"
+    url = "https://facebook.com"
+    pre = "<i class='fab fa-2x fa-facebook'></i>"
+
+[[menu.topbar]]
+    weight = 4
+    name = "Email"
+    url = "mailto:cliniqueveterinaire3V@gmail.com"
+    pre = "<i class='fas fa-2x fa-envelope'></i>"
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "DevCows"
+    defaultKeywords = ["devcows", "hugo", "go"]
+    mainSections = ["blog"]
+    defaultDescription = "Site template made by Devcows using Hugo"
+
+    # Social media
+    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    twitter_site = "" # the Twitter handle of your site (without the '@')
+    default_sharing_image = "img/sharing-default.png"
+
+    # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
+    enableGoogleMaps = true
+    googleMapsApiKey = "AIzaSyBONwH3oqKDGeE_likC5b7fK98LUfjx75g"
+
+    latitude = "47.13823170366342"
+    longitude = "6.527250960706587"
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "blue"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 50 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - register your account to https://formspree.io/register
+    # - login and create new form
+    # - set your form's endpoint url under 'formspree_action' below
+    # - upload the generated site to your server
+    # - test a dummy email yourself
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io endpoint url
+    formspree_action = "https://formspree.io/sample/of/endpoint"
+    contact_form_ajax = false
+
+    # Formspree form supports Google reCAPTCHA Key (type v2).
+    # If you use this feature, you should enable reCAPTCHA feature in the Formspree dashboard.
+    #
+    # By default, Formspree use a redirect page for recaptcha widget.
+    # If you use a recaptcha widget in your contact page, you should do next steps.
+    # (if you don't want, skip these steps)
+    #
+    #   1. register your site on Google recaptcha admin page: https://www.google.com/recaptcha/admin
+    #   2. select reCAPTCHA v2 and checkbox widget type.
+    #   3. remember site key and secret key.
+    #   4. enter secret key into "Custom reCAPTCHA Key" field in your Formspree form setting page.
+    #   5. change `enableRecaptchaInContactForm` is to true
+    #   6. enter site key into `googleRecaptchaKey` to enable a recaptcha widget in your page.
+    #
+    enableRecaptchaInContactForm = false
+    googleRecaptchaKey = "site_key_for_google_recaptcha"
+
+    about_us = """<p>Clinique vétérinaire située à Orchamps-Vennes.</p>
+    <h4 class="text-uppercase"> Horaires </h4>
+        <p>
+        Lundi: 8H30-12H 14h-18H30
+        <br>Mardi: 8H30-18H30 en continu
+        <br>Mercredi: 8H30-12H 14H-18H30
+        <br>Jeudi: 8H30-18H30 en continu
+        <br>Vendredi: 8H30-12H 14H-18H30
+      </p>
+    """
+    copyright = "Copyright (c) 2024 - present, VetVennes; all rights reserved."
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    dropdown_mouse_over = false
+
+    disabled_logo = false
+    logo_text = "Clinique 3V"
+
+    logo = "img/logo.png"
+    logo_small = "img/logo-small.png"
+    contact_url = "/contact"
+    address = """<p class="text-uppercase"><strong>Clinique 3V</strong>
+        <br>24 b route de Besançon
+        <br>Orchamps-Vennes
+        <br>25390
+        <br>France
+        <br>
+      </p>
+      """
+
+[params.see_more]
+    enable = true
+    icon = "fab fa-facebook"
+    title = "Retrouvez toutes nos actualités sur Facebook !"
+    subtitle = "Vous y retrouverez concours, photos, etc"
+    link_url = "https://facebook.com"
+    link_text = "Notre page facebook"
+
+[params.carouselHomepage]
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more information take a look at the README.
+    enable = true
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.features]
+    enable = true
+    cols = 3 # Default: 3, Available values 2,3,4,6
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more information take a look at the README.
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
