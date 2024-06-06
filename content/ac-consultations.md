@@ -68,13 +68,11 @@ title = "Consultations"
   <hr class="visible-sm visible-xs"/>
 </div>
 <div class="row">
-    <div class="row" style="display: flex;align-items: center;flex-wrap: wrap;">
-      <div class="col-sm-12 right">
+      <div class="col-sm-12">
           <h3>Consultations à domicile</h3>
           <p style="text-align:justify;">
           Selon nos disponibilités, nous pouvons proposer des consultations à domicile pour les petites pathologies et les vaccinations.
           </p>
-      </div>
     </div>
 </div>
 <br>

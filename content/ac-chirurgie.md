@@ -4,7 +4,7 @@ title = "Chirurgie"
 
 <div class="row">
   <div class="col-sm-4">
-    <h4 style="text-align:center">Chirurgie de stérélisation (chiens, chats, lapins)</h4>
+    <h4 style="text-align:center">Chirurgie de stérilisation (chiens, chats, lapins)</h4>
   </div>
   <div class="col-sm-4">
   </div>
