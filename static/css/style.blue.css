@@ -150,7 +150,7 @@ div.section {
   vertical-align: middle;
   text-align: center;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 30px;
   border-radius: 15px;
 }
@@ -221,7 +221,7 @@ ul.list-style-none {
 }
 
 .pages-listing .item h3 {
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 20px;
   letter-spacing: 0.08em;
@@ -237,7 +237,7 @@ ul.list-style-none {
 
 .pages-listing .item .text p {
   color: #999999;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 20px;
 }
 
@@ -298,7 +298,7 @@ ul.list-style-none {
 
 #top p {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #top .social {
@@ -313,7 +313,7 @@ ul.list-style-none {
   height: 24px;
   border-radius: 12px;
   line-height: 24px;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -349,7 +349,7 @@ ul.list-style-none {
 }
 
 #top .login a {
-  font-size: 12px;
+  font-size: 14px;
   color: #eeeeee;
   margin-right: 15px;
   text-decoration: none;
@@ -443,7 +443,7 @@ ul.list-style-none {
 .navbar ul.dropdown-menu li a {
   position: relative;
   color: #999999;
-  font-size: 12px;
+  font-size: 14px;
   display: block;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -468,7 +468,7 @@ ul.list-style-none {
 }
 
 .navbar .yamm-content h3 {
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   padding-bottom: 10px;
   margin-top: 5px;
@@ -478,7 +478,7 @@ ul.list-style-none {
 
 @media (max-width: 767px) {
   .navbar .yamm-content h3 {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -504,7 +504,7 @@ ul.list-style-none {
 .navbar .yamm-content ul li a {
   position: relative;
   color: #999999;
-  font-size: 12px;
+  font-size: 14px;
   display: block;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -639,26 +639,26 @@ ul.list-style-none {
 }
 
 .input-group .btn {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .btn-lg {
   padding: 10px 16px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.33;
   border-radius: 0;
 }
 
 .btn-sm {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
   border-radius: 0;
 }
 
 .btn-xs {
   padding: 1px 5px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
   border-radius: 0;
 }
@@ -925,7 +925,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 @media (max-width: 991px) {
   #intro .item .btn {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -1104,7 +1104,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 .panel.sidebar-menu .panel-body label {
   color: #999999;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .panel.sidebar-menu .panel-body label:hover {
@@ -1139,7 +1139,7 @@ fieldset[disabled] .btn-template-primary.active {
   display: block;
   padding: 10px 15px;
   padding-left: 30px;
-  font-size: 12px;
+  font-size: 14px;
   color: #999999;
 }
 
@@ -1168,7 +1168,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -1245,7 +1245,7 @@ fieldset[disabled] .btn-template-primary.active {
 .panel.sidebar-menu ul.popular li p.date,
 .panel.sidebar-menu ul.recent li p.date {
   float: right;
-  font-size: 12px;
+  font-size: 14px;
   color: #999999;
 }
 
@@ -1255,7 +1255,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 .panel.sidebar-menu .text-widget {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .panel.sidebar-menu.with-icons ul.nav li a:after {
@@ -1357,7 +1357,7 @@ fieldset[disabled] .btn-template-primary.active {
   height: 26px;
   line-height: 25px;
   margin: 0 5px 0 0;
-  font-size: 18px;
+  font-size: 20px;
   color: var(--primary-accent);
   padding: 0;
   background: #fff;
@@ -1447,7 +1447,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 .home-carousel ul,
 .home-carousel p {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   padding: 0;
   text-transform: uppercase;
@@ -1458,7 +1458,7 @@ fieldset[disabled] .btn-template-primary.active {
 
   .home-carousel ul,
   .home-carousel p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -1567,7 +1567,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 .testimonials .item .testimonial .name-picture h5 {
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
@@ -1575,7 +1575,7 @@ fieldset[disabled] .btn-template-primary.active {
 .testimonials .item .testimonial .name-picture p {
   color: #999999;
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .testimonials .item .testimonial .name-picture img {
@@ -1591,7 +1591,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 .team-member h3 {
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 5px;
   letter-spacing: 0.08em;
@@ -1603,7 +1603,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 .team-member p.role {
   color: #999999;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
@@ -1655,7 +1655,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 .team-member .text p {
   color: #999999;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .team-member .social,
@@ -1726,7 +1726,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 .box-simple h3 {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   line-height: 1.5;
   color: #555555;
@@ -1829,7 +1829,7 @@ fieldset[disabled] .btn-template-primary.active {
 .box-image .name h3 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.08em;
 }
 
@@ -1917,7 +1917,7 @@ fieldset[disabled] .btn-template-primary.active {
 .box-image-text .top .name h3 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.08em;
 }
 
@@ -2168,7 +2168,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-transform: uppercase;
   margin-bottom: 0;
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.08em;
 }
 
@@ -2233,7 +2233,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .showcase .item h4 span {
@@ -2467,7 +2467,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #999999;
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.08em;
 }
 
@@ -2477,7 +2477,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 #blog-listing-medium .post .date-comments {
   float: right;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #blog-listing-medium .post .date-comments a {
@@ -2561,7 +2561,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .box-image-text.blog .author-category a {
@@ -2625,7 +2625,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 #blog-post .comment .posted {
   color: #999999;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #blog-post .comment .reply {
@@ -2710,7 +2710,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 .product .text h3 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   height: 39.6px;
   text-transform: uppercase;
@@ -2726,7 +2726,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 .product .text p.price {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .product .text p.price del {
@@ -2775,7 +2775,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 .goToDescription {
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -2923,7 +2923,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 #order-summary table tr.total td,
 #order-summary table tr.total th {
-  font-size: 18px;
+  font-size: 20px;
   color: #555555;
   font-weight: 700;
 }
@@ -2950,7 +2950,7 @@ fieldset[disabled] .btn-template-primary.active {
 #checkout .table tfoot,
 #basket .table tfoot,
 #customer-order .table tfoot {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .shipping-method h4,
@@ -2965,7 +2965,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 #customer-order .table tfoot th {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
 }
 
@@ -2975,7 +2975,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 #customer-order .addresses p {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
 }
 
@@ -3022,7 +3022,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 #footer h4 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -3094,7 +3094,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #footer .blog-entries .item .name h5 a {
@@ -3125,7 +3125,7 @@ fieldset[disabled] .btn-template-primary.active {
   background: #333;
   color: #ccc;
   padding: 50px 0;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 28px;
 }
 
@@ -3498,7 +3498,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 .navbar-brand {
   float: left;
-  padding: 10px 15px;
+  padding: 5px 15px;
   font-size: 24px;
   line-height: 20px;
   height: 62px;
@@ -3510,7 +3510,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 .navbar-brand img {
-  max-height: 42px;
+  max-height: 55px;
 }
 
 @media (min-width: 768px) {
@@ -3794,7 +3794,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 /* scaffolding */
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #555555;
 }
@@ -3855,7 +3855,7 @@ hr {
 /* dropdowns */
 .dropdown-menu {
   z-index: 1000;
-  font-size: 14px;
+  font-size: 16px;
   background-color: #ffffff;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -4059,7 +4059,7 @@ p {
 
 .lead {
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 @media (min-width: 768px) {
@@ -4069,11 +4069,11 @@ p {
 }
 
 .text-small {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .text-large {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .text-italic {
@@ -4105,7 +4105,7 @@ abbr[data-original-title] {
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
-  font-size: 14px;
+  font-size: 16px;
   border-left: 5px solid var(--primary-accent);
 }
 
@@ -4276,8 +4276,4 @@ a.list-group-item.active>.badge,
 .structure {
   text-align: justify;
   vertical-align: middle;
-}
-
-img {
-  max-height: 400px;
 }

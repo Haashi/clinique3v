@@ -1,11 +1,15 @@
 +++
 title = "Analyses"
 +++
+<div style="text-align: justify">
 
 #### Nos disposons d'un matériel complet permettant toute une palette d'analyses en un temps rapide.
+
+</div>
+
 -------------------------
 
-<div class="row">
+<div class="row" style="display: flex;align-items: center;flex-wrap: wrap;">
   <div class="col-sm-4">
     <ul>
       <li><h4>Hématologie</h4></li>
@@ -14,7 +18,7 @@ title = "Analyses"
     </ul>
   </div>
   <div class="col-sm-4">
-    <img class="img-responsive" src="/img/astreinte.jpg" alt="">
+    <img class="img-responsive" src="/img/analyses.jpg" alt="">
   </div>
   <div class="col-sm-4">
     <ul>
@@ -23,3 +27,4 @@ title = "Analyses"
     </ul>
   </div>
 </div>
+<br>

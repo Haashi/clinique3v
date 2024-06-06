@@ -16,7 +16,7 @@ title = "Chirurgie"
   <div class="col-sm-4">
   </div>
   <div class="col-sm-4">
-    <img class="img-responsive" src="/img/astreinte.jpg" alt="">
+    <img class="img-responsive" src="/img/chirurgie.png" alt="">
   </div>
   <div class="col-sm-4">
   </div>

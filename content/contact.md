@@ -14,7 +14,7 @@ id = "contact"
 
 <br>
 
-### Téléphone : 03 39 32 50 00
+### Téléphone : 03 39 32 00 50
 <br>
 
-### Retrouvez-nous sur [notre page facebook](https://facebook.com) !
+### Retrouvez-nous sur [notre page facebook](https://facebook.com/profile.php?id=61560517079198) !

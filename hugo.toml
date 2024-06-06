@@ -27,12 +27,6 @@ pluralizelisttitles = false
     weight     = 1
 
 [[menu.main]]
-    name       = "Structure"
-    identifier = "menu.structure"
-    url        = "/structure/"
-    weight     = 2
-
-[[menu.main]]
     name       = "Services"
     identifier = "menu.services"
     weight     = 3
@@ -146,8 +140,8 @@ pluralizelisttitles = false
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Appelez nous au 03 39 32 50 00 ou par e-mail cliniqueveterinaire3V@gmail.com</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+33339325000" data-animate-hover="pulse">+33339325000<i class="fas fa-phone"></i></a>
+    text = """<p class="hidden-sm hidden-xs">Appelez nous au 03 39 32 00 50 ou par e-mail cliniqueveterinaire3V@gmail.com</p>
+      <p class="hidden-md hidden-lg"><a href="tel:+33339325000" data-animate-hover="pulse">03 39 32 00 50<i class="fas fa-phone"></i></a>
       <a href="mailto:cliniqueveterinaire3V@gmail.com" data-animate-hover="pulse">cliniqueveterinaire3V@gmail.com<i class="fas fa-envelope"></i></a>
       </p>
       """
@@ -163,7 +157,7 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 2
     name = "Facebook"
-    url = "https://facebook.com"
+    url = "https://facebook.com/profile.php?id=61560517079198"
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
@@ -180,7 +174,7 @@ pluralizelisttitles = false
     defaultDescription = "Site template made by Devcows using Hugo"
 
     # Social media
-    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    facebook_site = "profile.php?id=61560517079198" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
     twitter_site = "" # the Twitter handle of your site (without the '@')
     default_sharing_image = "img/sharing-default.png"
 
@@ -208,7 +202,7 @@ pluralizelisttitles = false
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io endpoint url
-    formspree_action = "https://formspree.io/sample/of/endpoint"
+
     contact_form_ajax = false
 
     # Formspree form supports Google reCAPTCHA Key (type v2).
@@ -237,8 +231,9 @@ pluralizelisttitles = false
         <br>Jeudi: 8H30-18H30 en continu
         <br>Vendredi: 8H30-12H 14H-18H30
       </p>
+    <a href="/CLINIQUE-VETERINAIRE-3V-CGF.pdf" download="CLINIQUE-VETERINAIRE-3V-CGF.pdf">Conditions Générales de fonctionnement</a>
     """
-    copyright = "Copyright (c) 2024 - present, VetVennes; all rights reserved."
+    copyright = "Copyright (c) 2024 - present, Clinique Vétérinaire 3V; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -246,12 +241,12 @@ pluralizelisttitles = false
     dropdown_mouse_over = false
 
     disabled_logo = false
-    logo_text = "Clinique 3V"
+    logo_text = "Clinique vétérinaire 3V"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Clinique 3V</strong>
+    address = """<p class="text-uppercase"><strong>Clinique vétérinaire 3V</strong>
         <br>24 b route de Besançon
         <br>Orchamps-Vennes
         <br>25390
@@ -265,7 +260,7 @@ pluralizelisttitles = false
     icon = "fab fa-facebook"
     title = "Retrouvez toutes nos actualités sur Facebook !"
     subtitle = "Vous y retrouverez concours, photos, etc"
-    link_url = "https://facebook.com"
+    link_url = "https://facebook.com/profile.php?id=61560517079198"
     link_text = "Notre page facebook"
 
 [params.carouselHomepage]

@@ -3,6 +3,7 @@
     <div class="row">
 
             {{ .Content }}
+            <hr class="visible-sm visible-xs"/>
             {{ $elements := default 4 .Site.Params.equipe.cols }}
             {{ $features := sort .Site.Data.equipe "weight" }}
 
@@ -28,6 +29,7 @@
                                 <p>{{ $element.diplome | markdownify }}</p>
                             </div>
                         </div>
+                        <hr class="visible-sm visible-xs"/>
                     {{ end }}
                 {{ end }}
             </div>

@@ -2,12 +2,12 @@
 title = "Alimentation et accessoires"
 +++
 
-<div class="row">
+<div class="row" style="display: flex;align-items: center;flex-wrap: wrap;">
   <div class="col-sm-4">
-    <p style="text-align:justify">Pour tous les âges, des conseils en nutrition, en fonction des besoins énergétiques de vos companions, de leur mode de vie, de leur stade physiologique, de leur état de santé, etc.</p>
+    <p style="text-align:justify">Pour tous les âges, des conseils en nutrition, en fonction des besoins énergétiques de vos compagnons, de leur mode de vie, de leur stade physiologique, de leur état de santé, etc.</p>
   </div>
   <div class="col-sm-4">
-    <img class="img-responsive" src="/img/chiencroquettes.jpg" alt="">
+    <img class="img-responsive" src="/img/gamelle.png" alt="">
   </div>
   <div class="col-sm-4">
     <ul>
@@ -21,3 +21,4 @@ title = "Alimentation et accessoires"
     </ul>
   </div>
 </div>
+<br>

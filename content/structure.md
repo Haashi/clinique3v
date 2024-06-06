@@ -1,10 +1,6 @@
 +++
 title = "Structure"
 id = "structure"
-description = """
-Bienvenue à la clinique vétérinaire 3V d'Orchamps Vennes !
-Notre clinique vous accueille dans 100m² entièrement dediés à la santé et au bien-être animal et dotés d'une instrumentation de qualité.
-"""
 +++
 
 La clinique vétérinaire 3V d'Orchamps Vennes compte 100m² dédiés à la santé de vos compagnons canins, félins et NAC. Elle a été pensée pour assurer leur bien-être en réduisant au maximum leur stress. Nous disposons de 2 salles d'attente que nous avons voulues modernes, propres et accueillantes avec leurs touches de couleurs chatoyantes.

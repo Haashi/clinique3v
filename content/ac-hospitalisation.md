@@ -16,7 +16,7 @@ title = "Hospitalisation"
   <div class="col-sm-4">
   </div>
   <div class="col-sm-4">
-    <img class="img-responsive" src="/img/chathospitalisé.jpg" alt="">
+    <img class="img-responsive" src="/img/chenil.jpg" alt="">
   </div>
   <div class="col-sm-4">
   </div>
