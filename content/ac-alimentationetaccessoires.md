@@ -8,7 +8,7 @@ title = "Alimentation et accessoires"
     <p>Vous pouvez commander en ligne sur le site <a href="https://www.chronovet.fr">Chronovet</a> et venir récupérer vos commandes en Click & Collect.</p>
   </div>
   <div class="col-sm-4">
-    <img class="img-responsive" src="/img/gamelle.png" alt="">
+    <img class="img-responsive" src="/img/alimentation.jpg" alt="">
   </div>
   <div class="col-sm-4">
     <ul>
