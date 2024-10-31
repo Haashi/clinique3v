@@ -141,7 +141,7 @@ pluralizelisttitles = false
 [params.topbar]
     enable = true
     text = """<p class="hidden-sm hidden-xs">Appelez nous au 03 39 32 00 50 ou par e-mail cliniqueveterinaire3V@gmail.com. Prenez rendez vous sur <a href="https://vetolib.fr/clinique-veterinaire/orchamps-vennes/clinique-veterinaire-3v">Vetolib</a> !</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+33339325000" data-animate-hover="pulse">03 39 32 00 50<i class="fas fa-phone"></i></a>
+      <p class="hidden-md hidden-lg"><a href="tel:+33339320050" data-animate-hover="pulse">03 39 32 00 50<i class="fas fa-phone"></i></a>
       <br>
       <a href="mailto:cliniqueveterinaire3V@gmail.com" data-animate-hover="pulse">cliniqueveterinaire3V@gmail.com<i class="fas fa-envelope"></i></a>
       <br>
@@ -154,7 +154,7 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 1
     name = "Phone"
-    url = "tel:+33339325000"
+    url = "tel:+33339320050"
     pre = "<i class='fas fa-2x fa-phone'></i>"
 
 [[menu.topbar]]
