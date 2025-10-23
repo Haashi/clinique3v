@@ -12,8 +12,7 @@ googleAnalytics = ""
 
 # number of words of summarized post content (default 70)
 summaryLength = 70
-# Define the number of posts per page
-paginate = 10
+
 # not pluralize title pages by default
 pluralizelisttitles = false
 
@@ -140,12 +139,11 @@ pluralizelisttitles = false
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Appelez nous au 03 39 32 00 50 ou par e-mail cliniqueveterinaire3V@gmail.com. Prenez rendez vous sur <a href="https://vetolib.fr/clinique-veterinaire/orchamps-vennes/clinique-veterinaire-3v">Vetolib</a> !</p>
+    text = """<p class="hidden-sm hidden-xs">Appelez nous au 03 39 32 00 50 ou par e-mail cliniqueveterinaire3V@gmail.com !</p>
       <p class="hidden-md hidden-lg"><a href="tel:+33339320050" data-animate-hover="pulse">03 39 32 00 50<i class="fas fa-phone"></i></a>
       <br>
       <a href="mailto:cliniqueveterinaire3V@gmail.com" data-animate-hover="pulse">cliniqueveterinaire3V@gmail.com<i class="fas fa-envelope"></i></a>
       <br>
-      <a href="https://vetolib.fr/clinique-veterinaire/orchamps-vennes/clinique-veterinaire-3v">Prendre rendez vous en ligne<i class="fas fa-calendar"></i></a>
       </p>
       """
 
@@ -162,12 +160,6 @@ pluralizelisttitles = false
     name = "Facebook"
     url = "https://facebook.com/profile.php?id=61560517079198"
     pre = "<i class='fab fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Vetolib"
-    url = "https://vetolib.fr/clinique-veterinaire/orchamps-vennes/clinique-veterinaire-3v"
-    pre = "<i class='fas fa-2x fa-calendar'></i>"
 
 [[menu.topbar]]
     weight = 4

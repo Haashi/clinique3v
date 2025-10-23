@@ -14,9 +14,6 @@ id = "contact"
 
 <br>
 
-### Prenez rendez-vous en ligne sur [Vetolib](https://vetolib.fr/clinique-veterinaire/orchamps-vennes/clinique-veterinaire-3v) !
-<br>
-
 ### Téléphone : 03 39 32 00 50
 <br>
 
